@@ -4,7 +4,9 @@ import React, { useEffect, useId, useRef } from "react";
 export function AuroraText({
   children,
   className = "",
-  colors = ["#001F3F","#0A0A0A","#1B263B",],
+  colors = ["#FF9A8B", // peach-pink
+  "#FF61A6", // light blush
+  "#A18CD1",],
   speed = 2
 }) {
   const canvasRef = useRef(null);

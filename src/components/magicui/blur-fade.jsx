@@ -6,13 +6,13 @@ export function BlurFade({
   children,
   className,
   variant,
-  duration = 0.4,
+  duration = 0.7,
   delay = 0,
   offset = 6,
   direction = "down",
   inView = false,
   inViewMargin = "-50px",
-  blur = "6px",
+  blur = "7px",
   ...props
 }) {
   const ref = useRef(null);

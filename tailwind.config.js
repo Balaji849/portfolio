@@ -6,7 +6,7 @@ module.exports = {
   theme: {
   	extend: {
 		fontFamily:{
-            roboto:["Roboto Mono"],
+            roboto:["Roboto Mono","sans-sarif"],
 			bebas:["Bebas Neue",]
 		},
   		borderRadius: {
